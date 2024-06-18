@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация для Флэшки</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <H1>КОШКА ФЛЭШКА</H1>
+   <a href="z.html"><img src="/images/Флэшка.JPG" alt="флэшка" width="500" height="370" title="кошка"></a>
+    <h2>Зарегистрирйся для кошки, пожалуйста...</h2>
+    <a href="/z.html" target="_blank">Хозяин Кошки Флэшки</a><BR><br>
+    <a href="https://ru.wikipedia.org/wiki/Кошка">ИНФА ПРО КОШЕК</a>
+
+   <h1>Регистрация</h1>
+   <form name="signup"></form>
+    <div>
+        <label>Введите логин:</label>
+        <input type="text" name="username"> 
+    </div>
+    <div>
+    <label>Введите E-mail:</label>
+    <input type="email" name="email">
+</div>
+<div>
+    <label>Введите пароль:</label>
+    <input type="password" name="password">
+</div>
+<div>
+    <label>Укажите пол:</label>
+    <input type="radio" name="sex" value="0">Мужской
+    <input type="radio" name="sex" value="1">Женский
+</div>
+<div>
+    <label>Я ознакомился с правилами</label>
+<input type="checkbox" name="rules">
+</div>
+<div>
+    <label>Загрузите фото:</label>
+    <input type="file" name="avatar">
+</div>
+<div>
+    <label>Год рождения</label>
+    <select name="year">
+        <option value>2000</option>
+        <option value>2001</option>
+        <option value>2002</option>
+        </select>
+    </div>
+    <div>
+        <textarea placeholder="Введите текст сообщения"></textarea>
+    </div>
+   
+        <input type="submit" name="signup" value="Зарегистрироваться">
+   </form>
+   <BR>
+  <BUTTON>КОШКА СКАЖЕТ ТЕБЕ СПАСИБО</BUTTON>
+  <div class="output"></div>
+  <script src="index.js"></script>
+</body>
+</html>
